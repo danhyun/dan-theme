@@ -23,7 +23,7 @@
    ========================================================================== */
 
 @import url(normalize.css);
-
+@import url(fontawesome.css);
 
 /* ==========================================================================
    1. Icons - Sets up the icon font and respective classes
@@ -79,6 +79,9 @@ img.avatar {
     border-radius: 50px;
 }
 
+[class^="icon-"], a [class*=" icon-"] {
+
+}
 
 /* ==========================================================================
    2. General - Setting up some base styles
@@ -804,7 +807,6 @@ table.plain {
         box-sizing: border-box; 
         height: auto;
         min-height: 240px;
-        padding: 15% 0;
     }
 
     .blog-title {
@@ -950,6 +952,7 @@ table.plain {
     }
 
 }
+
 
 /* ==========================================================================
    End of file. Media queries should be the last thing here. Do not add stuff

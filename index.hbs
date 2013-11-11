@@ -7,11 +7,13 @@
 <header id="site-head" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
     <div class="vertical">
         <div id="site-head-content" class="inner">
-
+            <p class="pull-right blog-title" style="font-size: inherit">
+                <a href="https://github.com/danhyun" target="_blank"><i class="icon-github icon-2x"></i></a>
+                <a href="https://www.linkedin.com/in/danhyun" target="_blank"><i class="icon-linkedin icon-2x"></i></a>
+            </p>
             {{#if @blog.logo}}<a id="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
             <h1 class="blog-title">{{@blog.title}}</h1>
             <h2 class="blog-description">{{@blog.description}}</h2>
-            <p><a href="https://github.com/danhyun" target="_blank">github</a> <a href="https://www.linkedin.com/in/danhyun" target="_blank">linkedin</a></p>
         </div>
     </div>
 </header>
